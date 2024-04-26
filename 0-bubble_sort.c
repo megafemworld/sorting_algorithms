@@ -1,4 +1,5 @@
 #include "sort.h"
+#include <stddef.>
 
 /**
  * bubble_sort - Sorts in ascending order using the Bubble sort algorithm.
