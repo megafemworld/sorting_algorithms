@@ -43,8 +43,8 @@ void insertion_sort_list(listint_t **list)
 				prev_node->next = current;
 				current->prev = prev_node;
 			}
+			print_list(*list);
 		}
 		current = next_node;
-		print_list(*list);
 	}
 }
